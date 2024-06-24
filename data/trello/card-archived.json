@@ -1,0 +1,174 @@
+{
+  "model": {
+    "id": "abc64ds5ad45s6161d",
+    "name": "test",
+    "desc": "",
+    "descData": null,
+    "closed": false,
+    "idOrganization": "abc64ds5ad45s6161d",
+    "idEnterprise": null,
+    "pinned": false,
+    "url": "https://trello.com/b/BoardId/test",
+    "shortUrl": "https://trello.com/b/BoardId",
+    "prefs": {
+      "permissionLevel": "private",
+      "hideVotes": false,
+      "voting": "disabled",
+      "comments": "members",
+      "invitations": "members",
+      "selfJoin": false,
+      "cardCovers": true,
+      "cardCounts": false,
+      "isTemplate": false,
+      "cardAging": "regular",
+      "calendarFeedEnabled": false,
+      "hiddenPluginBoardButtons": [],
+      "switcherViews": [
+        {
+          "viewType": "Board",
+          "enabled": true
+        },
+        {
+          "viewType": "Table",
+          "enabled": true
+        },
+        {
+          "viewType": "Calendar",
+          "enabled": false
+        },
+        {
+          "viewType": "Dashboard",
+          "enabled": false
+        },
+        {
+          "viewType": "Timeline",
+          "enabled": false
+        },
+        {
+          "viewType": "Map",
+          "enabled": false
+        }
+      ],
+      "background": "5b6c7cf42932c02908aa067d",
+      "backgroundColor": null,
+      "backgroundImage": "https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2560x1707/0d346cbbbfdf8d839dae50068287a75f/photo-1533756147285-967602e72ba9",
+      "backgroundTile": false,
+      "backgroundBrightness": "dark",
+      "sharedSourceUrl": "https://images.unsplash.com/photo-1533756147285-967602e72ba9?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjcwNjZ9&s=988e701634de92d81fc856dd911a291c&w=2560&h=2048&q=90",
+      "backgroundImageScaled": [
+        {
+          "width": 140,
+          "height": 93,
+          "url": ""
+        }
+      ],
+      "backgroundBottomColor": "#21150d",
+      "backgroundTopColor": "#acbacb",
+      "canBePublic": true,
+      "canBeEnterprise": true,
+      "canBeOrg": true,
+      "canBePrivate": true,
+      "canInvite": true
+    },
+    "labelNames": {
+      "green": "",
+      "yellow": "",
+      "orange": "",
+      "red": "",
+      "purple": "",
+      "blue": "",
+      "sky": "",
+      "lime": "",
+      "pink": "",
+      "black": "",
+      "green_dark": "",
+      "yellow_dark": "",
+      "orange_dark": "",
+      "red_dark": "",
+      "purple_dark": "",
+      "blue_dark": "",
+      "sky_dark": "",
+      "lime_dark": "",
+      "pink_dark": "",
+      "black_dark": "",
+      "green_light": "",
+      "yellow_light": "",
+      "orange_light": "",
+      "red_light": "",
+      "purple_light": "",
+      "blue_light": "",
+      "sky_light": "",
+      "lime_light": "",
+      "pink_light": "",
+      "black_light": ""
+    }
+  },
+  "action": {
+    "id": "abc64ds5ad45s6161d",
+    "idMemberCreator": "abc64ds5ad45s6161d",
+    "data": {
+      "card": {
+        "closed": true,
+        "id": "abc64ds5ad45s6161d",
+        "name": "test 4 - changed title",
+        "idShort": 4,
+        "shortLink": "dadsADS"
+      },
+      "old": {
+        "closed": false
+      },
+      "board": {
+        "id": "abc64ds5ad45s6161d",
+        "name": "test",
+        "shortLink": "dadsADS"
+      },
+      "list": {
+        "id": "abc64ds5ad45s6161d",
+        "name": "Doing"
+      }
+    },
+    "appCreator": null,
+    "type": "updateCard",
+    "date": "2024-05-03T17:27:04.685Z",
+    "limits": null,
+    "display": {
+      "translationKey": "action_archived_card",
+      "entities": {
+        "card": {
+          "type": "card",
+          "closed": true,
+          "id": "abc64ds5ad45s6161d",
+          "shortLink": "dadsADS",
+          "text": "test 4 - changed title"
+        },
+        "memberCreator": {
+          "type": "member",
+          "id": "abc64ds5ad45s6161d",
+          "username": "testuser",
+          "text": "TEST UPDATED NAME"
+        }
+      }
+    },
+    "memberCreator": {
+      "id": "abc64ds5ad45s6161d",
+      "activityBlocked": false,
+      "avatarHash": "abc64ds5ad45s6161d",
+      "avatarUrl": "https://trello-members.s3.amazonaws.com/abc64ds5ad45s6161d/abc64ds5ad45s6161d",
+      "fullName": "testuser",
+      "idMemberReferrer": null,
+      "initials": "C",
+      "nonPublic": {},
+      "nonPublicAvailable": true,
+      "username": "testuser"
+    }
+  },
+  "webhook": {
+    "id": "abc64ds5ad45s6161d",
+    "description": "",
+    "idModel": "abc64ds5ad45s6161d",
+    "callbackURL": "",
+    "active": true,
+    "consecutiveFailures": 0,
+    "firstConsecutiveFailDate": null
+  }
+}

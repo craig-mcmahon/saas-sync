@@ -1,0 +1,9 @@
+/target
+/node_modules
+.wrangler
+.idea
+.env
+.dev.vars
+http-client.private.env.json
+trello-setup.http
+

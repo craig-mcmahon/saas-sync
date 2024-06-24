@@ -1,0 +1,49 @@
+{
+  "token": "TOKEN",
+  "team_id": "TEAM_ID",
+  "context_team_id": "TEAM_ID",
+  "context_enterprise_id": null,
+  "api_app_id": "API_APP_ID",
+  "event": {
+    "user": "USER_ID",
+    "type": "message",
+    "ts": "1715524581.123456",
+    "client_msg_id": "client-message-uuid",
+    "text": "new thread",
+    "team": "TEAM_ID",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "block_id",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "new thread"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "channel": "CHANNEL_ID",
+    "event_ts": "1715524581.123456",
+    "channel_type": "channel"
+  },
+  "type": "event_callback",
+  "event_id": "EVENT_ID",
+  "event_time": 1715524581,
+  "authorizations": [
+    {
+      "enterprise_id": null,
+      "team_id": "TEAM_ID",
+      "user_id": "USER_ID",
+      "is_bot": true,
+      "is_enterprise_install": false
+    }
+  ],
+  "is_ext_shared_channel": false,
+  "event_context": "SOME_LONG_EVENT_STRING"
+}

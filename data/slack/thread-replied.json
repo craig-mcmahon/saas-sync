@@ -1,0 +1,50 @@
+{
+  "token": "TOKEN",
+  "team_id": "TEAM_ID",
+  "context_team_id": "TEAM_ID",
+  "context_enterprise_id": null,
+  "api_app_id": "APP_ID",
+  "event": {
+    "user": "USER_ID",
+    "type": "message",
+    "ts": "1715523657.123456",
+    "text": "Some reply from slack",
+    "team": "TEAM_ID",
+    "thread_ts": "1715287188.123456",
+    "parent_user_id": "USER_ID",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "block_id",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Comment added by TEST USER\ntesting"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "channel": "CHANNEL_ID",
+    "event_ts": "1715523657.123456",
+    "channel_type": "channel"
+  },
+  "type": "event_callback",
+  "event_id": "EVENT_ID",
+  "event_time": 1715523657,
+  "authorizations": [
+    {
+      "enterprise_id": null,
+      "team_id": "TEAM_ID",
+      "user_id": "USER_ID",
+      "is_bot": true,
+      "is_enterprise_install": false
+    }
+  ],
+  "is_ext_shared_channel": false,
+  "event_context": "SOME_LONG_EVENT_STRING"
+}

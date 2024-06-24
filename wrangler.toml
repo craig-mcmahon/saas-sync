@@ -1,0 +1,21 @@
+name = "worker-rust"
+main = "build/worker/shim.mjs"
+compatibility_date = "2023-12-01"
+
+[build]
+command = "cargo install -q worker-build && worker-build --release"
+
+[env.dev]
+build = { command = "cargo install -q worker-build && worker-build --dev" }
+
+[[env.dev.d1_databases]]
+binding = 'DB'
+database_name = 'my_db'
+database_id = 'test'
+preview_database_id = 'preview-test'
+
+[[d1_databases]]
+binding = 'DB'
+database_name = 'my_db'
+database_id = 'test'
+preview_database_id = 'preview-test'
